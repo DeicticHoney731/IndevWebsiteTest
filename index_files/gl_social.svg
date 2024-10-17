@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54 54">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #000;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #c1272d;
+      }
+
+      .cls-3 {
+        fill: #f2f2f2;
+      }
+
+      .cls-4 {
+        fill: #565656;
+      }
+
+      .cls-5 {
+        fill: #999;
+      }
+
+      .cls-6 {
+        fill: gray;
+      }
+
+      .cls-7 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <rect class="cls-7" width="54" height="54"/>
+    <rect class="cls-2" x="1" y="27.5" width="25" height="26"/>
+    <polygon class="cls-7" points="9.17 35 9.17 46 17.85 40.15 9.17 35"/>
+    <rect class="cls-4" x="28" y="27.53" width="25" height="26"/>
+    <polygon class="cls-6" points="36.17 35.03 36.17 46.03 44.85 40.18 36.17 35.03"/>
+    <rect class="cls-1" x="1.02" y=".51" width="25" height="26"/>
+    <rect class="cls-4" x="28.02" y=".54" width="25" height="26"/>
+    <path class="cls-3" d="M17.87,7h2.04l-4.47,5.09,5.23,6.91h-4.1l-3.21-4.2-3.68,4.2h-2.04l4.74-5.45-5-6.55h4.2l2.9,3.83,3.4-3.83ZM17.16,17.8h1.13l-7.31-9.65h-1.21l7.39,9.65Z"/>
+    <path class="cls-5" d="M44.32,7.21h2.04l-4.47,5.09,5.23,6.91h-4.1l-3.21-4.2-3.68,4.2h-2.04l4.74-5.45-5-6.55h4.2l2.9,3.83,3.4-3.83ZM43.61,18.01h1.13l-7.31-9.65h-1.21l7.39,9.65Z"/>
+  </g>
+</svg>
