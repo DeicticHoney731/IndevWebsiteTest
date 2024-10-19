@@ -1,0 +1,35 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  //let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+if(typeof WolExtern==="undefined")WolExtern={};if(typeof WolExtern.WolIframe==="undefined")WolExtern.WolIframe={};(function(){WolExtern.WolIframe.allowedOriginArray=["https://web.archive.org/web/20130714113711/http://live-winstage.redmond.corp.microsoft.com","https://web.archive.org/web/20130714113711/http://prev.windows.microsoft.com","https://web.archive.org/web/20130714113711/http://prev-winstage.redmond.corp.microsoft.com","https://web.archive.org/web/20130714113711/http://test.windows.microsoft.com","https://web.archive.org/web/20130714113711/http://test-winstage.redmond.corp.microsoft.com","https://web.archive.org/web/20130714113711/http://windows.microsoft.com","https://web.archive.org/web/20130714113711/http://woldev","https://web.archive.org/web/20130714113711/http://woldevstage","https://web.archive.org/web/20130714113711/http://wwwppe.corp.microsoft.com"];WolExtern.WolIframe.hostFrameID="";WolExtern.WolIframe.contentBodyHeightDelta=0;WolExtern.WolIframe.actionInitialize="initialize";WolExtern.WolIframe.actionResize="resize";WolExtern.WolIframe.messageData={action:"",targetFrameID:"",contentHeight:0};$(document).ready(function(){WolExtern.WolIframe.IsPostMessageSupported()===true&&WolExtern.WolIframe.AttachMessageHandler()});$(window).load(function(){if(WolExtern.WolIframe.IsPostMessageSupported()===true){WolExtern.WolIframe.GetHostFrameID();if(typeof WolExtern.WolIframe.hostFrameID==="string"&&WolExtern.WolIframe.hostFrameID!==""){WolExtern.WolIframe.contentBodyHeightDelta=$(document).height()-$(document.body).outerHeight(true);WolExtern.WolIframe.PostMessage(WolExtern.WolIframe.actionInitialize);$(window).resize(function(){WolExtern.WolIframe.PostMessage(WolExtern.WolIframe.actionResize)})}}});WolExtern.WolIframe.GetHostFrameID=function(){$.each(window.location.search.replace("&amp;","&").split("&"),function(){if(this.toLowerCase().indexOf("hfid=")>-1){var a=escape(unescape(this.split("=")[1]));if(a!=="")WolExtern.WolIframe.hostFrameID=a;return}})};WolExtern.WolIframe.PostMessage=function(a){if(a!==null&&typeof a!=="undefined"&&a!==""){WolExtern.WolIframe.messageData.action=a;WolExtern.WolIframe.messageData.contentHeight=$(document.body).outerHeight(true)+WolExtern.WolIframe.contentBodyHeightDelta;WolExtern.WolIframe.messageData.targetFrameID=WolExtern.WolIframe.hostFrameID;var b=JSON.stringify(WolExtern.WolIframe.messageData);typeof window.top.postMessage!=="undefined"&&window.top.postMessage(b,"*")}};WolExtern.WolIframe.ApplyWolPageStyle=function(a){typeof a==="string"&&a!==""&&$(document.body).append('<style type="text/css">'+a+"</style>")};WolExtern.WolIframe.MessageHandler=function(b){if(WolExtern.WolIframe.IsOriginSupported(b.origin)){try{var a=window.JSON.parse(b.data)}catch(c){return}if(WolExtern.WolIframe.IsMessageDataValid(a)===true)switch(a.action){case WolExtern.WolIframe.actionInitialize:WolExtern.WolIframe.ApplyWolPageStyle(a.wolPageStyle)}}};WolExtern.WolIframe.IsPostMessageSupported=function(){if(typeof window.postMessage!=="undefined")return true;return false};WolExtern.WolIframe.IsMessageDataValid=function(a){if(a!==null&&typeof a!=="undefined")if(a.action!==null&&a.action===WolExtern.WolIframe.actionInitialize){if(typeof a.wolPageStyle==="string")return true}else if(a.action!==null&&a.action===WolExtern.WolIframe.actionResize)return true;return false};WolExtern.WolIframe.IsOriginSupported=function(a){for(allowedOrigin in WolExtern.WolIframe.allowedOriginArray)if(a.match("^.*?"+WolExtern.WolIframe.allowedOriginArray[allowedOrigin]+"$")!==null)return true;return false};WolExtern.WolIframe.AttachMessageHandler=function(){if(WolExtern.WolIframe.IsPostMessageSupported()===true)if(window.addEventListener)window.addEventListener("message",WolExtern.WolIframe.MessageHandler,false);else window.attachEvent&&window.attachEvent("onmessage",WolExtern.WolIframe.MessageHandler)}})()
+
+}
+/*
+     FILE ARCHIVED ON 11:37:11 Jul 14, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 02:23:35 Oct 18, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.451
+  exclusion.robots: 0.019
+  exclusion.robots.policy: 0.012
+  esindex: 0.009
+  cdx.remote: 4.937
+  LoadShardBlock: 124.358 (3)
+  PetaboxLoader3.datanode: 40.965 (4)
+  PetaboxLoader3.resolve: 159.014 (2)
+  load_resource: 115.263
+*/

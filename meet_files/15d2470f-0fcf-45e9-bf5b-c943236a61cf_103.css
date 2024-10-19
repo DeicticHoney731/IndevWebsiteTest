@@ -1,0 +1,246 @@
+﻿/* suppress old social + feedback + fat footer */
+table.table_fb_table,
+table.table_social,
+#feedbackControlBody,
+table.table_fat-footer { display: none; }
+
+/* customClasses */
+.ccSuppressShowHideAll a.link_expandAll, .ccSuppressShowHideAll a.link_expandAll:visited,
+.ccSuppressShowHideAll a.link_collapseAll, .ccSuppressShowHideAll a.link_collapseAll:visited { display: none; }
+
+.ccGridPullUpInternal-SectionListLinksThumbnail div.section_section-list-links-thumbnail { margin-bottom: 16px; }
+
+.ccTomato, .ccTomato .para { color: #FF3300; }
+.ccStrawberry, .ccStrawberry .para { color: #FF1769; }
+.ccPurple, .ccPurple .para { color: #BD51FF; }
+.ccOcean, .ccOcean .para { color: #00CCFF; }
+.ccTeal, .ccTeal .para { color: #00D8CC; }
+.ccLime, .ccLime .para { color: #BAD80A; }
+.ccGrass, .ccGrass .para { color: #7FB800; }
+.ccCanary, .ccCanary .para { color: #FFD800; }
+.ccBlueberry, .ccBlueberry .para { color: #4617B4; }
+
+.ccAlternateTomato, .ccAlternateTomato .para { color: #DB0C07; }
+.ccAlternateStrawberry, .ccAlternateStrawberry .para { color: #9B175A; }
+.ccAlternatePurple, .ccAlternatePurple .para { color: #7700AC; }
+.ccAlternateOcean, .ccAlternateOcean .para { color: #24459A; }
+.ccAlternateTeal, .ccAlternateTeal .para { color: #007172; }
+.ccAlternateLime, .ccAlternateLime .para { color: #537001; }
+.ccAlternateGrass, .ccAlternateGrass .para { color: #537001; }
+.ccAlternateCanary, .ccAlternateCanary .para { color: #EDB91D; }
+.ccAlternateBlueberry, .ccAlternateBlueberry .para { color: #5F37BE; }
+
+.ccLight, .ccLight .para,
+.ccLightLink a, .ccLightLink a:visited { color: #FFFFFF; }
+.ccDark, .ccDark .para { color: #454545; }
+
+.ccBtnSeattleGrey .accentBackground,
+.ccBtnSeattleGrey a, .ccBtnSeattleGrey a:hover, .ccBtnSeattleGrey a:active, 
+.ccBtnSeattleGrey a:visited, .ccBtnSeattleGrey a:link,
+.ccBtnSeattleGrey:hover .accentBackground, a:focus .ccBtnSeattleGrey .accentBackground,
+.ccBtnSeattleGrey:hover a, .ccBtnSeattleGrey:hover a:hover, .ccBtnSeattleGrey:hover a:active, 
+.ccBtnSeattleGrey:hover a:visited, .ccBtnSeattleGrey:hover a:link  { color: #454545; }
+.ccBtnSeattleGrey .accentBackground { background-color: #EDEDF0; }
+.ccBtnSeattleGrey:hover .accentBackground, a:focus .ccBtnSeattleGrey .accentBackground { background-color: #CFCFCF; }
+
+.ccItemList-SemiBoldItems li,
+.ccItemList-SemiBoldItems .para { font-weight: 600; }
+
+.ccKhmer { font-family: "Khmer UI", "Segoe UI", Verdana, Arial, Sans-Serif; }
+
+.ccUnobtrusiveTabs .modern-tab-heading-separator { display: none; }
+.ccUnobtrusiveTabs div.tabBody_horizontal div.tabContent { border: none; }
+.ccUnobtrusiveTabs .modern-tab-horizontal > .modern-tab-heading-container .modern-tab-link,
+.ccUnobtrusiveTabs div.tabBody_horizontal a.tabLink, div.tabBody_horizontal a.tabLink:visited
+{
+	font-size: 13px;
+	line-height: 20px;
+}
+
+.ccTable-PegHeadersBottom th { vertical-align: bottom; }
+
+.ccTextLineHeightZero, .ccTextLineHeightZero .para { line-height: 0px; }
+
+.ccCompact .para,
+.ccCompact .lastElement.para 
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+.ccHeadingXLIntl { font-weight: 600; }
+
+div.ccSectionFlush { margin-top: 0px; }
+
+.ccReadingWidth { width: 75%; }
+@media screen and (max-width: 56.24375em)
+{
+	.ccReadingWidth { width: 100%; }
+}
+
+.ccTable-VertAlignMiddle td { vertical-align: middle; }
+
+.headingXXL.ccHeading-AlignToImageTop,
+.headingXL.ccHeading-AlignToImageTop { margin-top: -11px; }
+.headingINTL.ccHeading-AlignToImageTop { margin-top: -12px; }
+.headingL.ccHeading-AlignToImageTop,
+.headingM.ccHeading-AlignToImageTop { margin-top: -7px; }
+.headingS.ccHeading-AlignToImageTop { margin-top: -6px; }
+.headingXS.ccHeading-AlignToImageTop { margin-top: -5px; }
+@media screen and (min-width: 47.5em) and (max-width: 56.24375em)
+{
+	.headingXXL.ccHeading-AlignToImageTop { margin-top: -9px; }
+}
+@media screen and (min-width: 31.875em) and (max-width: 47.49375em)
+{
+	.headingXXL.ccHeading-AlignToImageTop { margin-top: -12px; }
+	.headingINTL.ccHeading-AlignToImageTop { margin-top: -11px; }
+	.headingM.ccHeading-AlignToImageTop { margin-top: -6px; }
+}
+@media screen and (max-width: 31.86875em)
+{
+	.headingXXL.ccHeading-AlignToImageTop { margin-top: -5px; }
+	.headingXL.ccHeading-AlignToImageTop,
+	.headingINTL.ccHeading-AlignToImageTop { margin-top: -9px; }
+	.headingM.ccHeading-AlignToImageTop { margin-top: -6px; }
+}
+
+/* Start Live Message CSS */
+#liveMessageDiv
+{
+    background-color: #EDEDF0;
+    border: none;
+    display: none;
+}
+#liveMessageGrid { width: 100%;}
+#liveMessageGrid div { vertical-align: middle; position: relative;}
+#liveMessageText
+{ 
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-right: 30px;
+    margin-top: 23px;
+    margin-bottom: 24px;
+	float: left;
+}
+#liveMessageButton
+{
+	margin-top: 14px;
+	margin-bottom: 15px;
+	float: right;
+	display: block;
+}
+
+#liveMessageText.txtTextLong { margin-bottom: 16px; }
+#liveMessageButton.btnTextLong
+{
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-bottom: 24px;
+	float: left;
+}
+	
+@media screen and (max-width:47.49em)
+{
+	#liveMessageText
+	{ 
+		margin-bottom: 16px;
+		width: 100%;
+	}
+	#liveMessageButton
+	{
+		margin-top: 0px;
+		margin-left: 0px;
+		margin-bottom: 24px;
+		float: left;
+	}
+}
+
+.hdr-is-present.hdr-is-subnav-present #liveMessageDiv { padding-top: 33px; }
+.hdr-is-present #liveMessageDiv { padding-top: 10px; }
+   
+@media screen and (max-width: 62.86875em)
+{
+	/* in responsive, subnav goes away at this breakpoint so remove padding */
+	.hdr-is-present.hdr-is-subnav-present #liveMessageDiv { padding-top: 0px; }
+	.hdr-is-present #liveMessageDiv { padding-top: 0px; }
+}
+/* End Live Message CSS */
+
+/* classes needed for Full-Width Region */
+div.regionOuter.fullWidthRegion div.region { max-width: 100%; }
+div.regionOuter.fullWidthRegion div.region.regionGroup,
+div.regionOuter.fullWidthRegion div.region.grid-container
+{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left:0px;
+    margin-right:0px;
+}
+div.regionOuter.fullWidthRegion div.region,
+div.regionOuter.fullWidthRegion div.containerFullWidth { width: auto; }
+
+/* Atlas Iframe */
+iframe.atlasFrame { display: none; }
+
+/* advance fixes */
+.title_alertset_note.matM,
+.title_alertset_warning.matM,
+.title_alertset_tip.matM { font-size: 16px; }
+
+/* regionHero disruptor spacing advance fix */
+div.regionHero.sectionMiddle,
+div.regionHero.sectionBottom { margin-top: 77px; }
+
+@media screen and (max-width: 56.24375em)
+{
+  div.regionHero.sectionMiddle,
+  div.regionHero.sectionBottom { margin-top: 65px; }
+}
+
+@media screen and (max-width: 47.49375em)
+{
+  div.regionHero.sectionMiddle,
+  div.regionHero.sectionBottom { margin-top: 50px; }
+}
+
+@media screen and (max-width: 31.86875em)
+{
+  div.regionHero.sectionMiddle,
+  div.regionHero.sectionBottom { margin-top: 35px; }
+}
+
+/* thin footer advance fix */
+#bodyBigFooter { padding-bottom: 48px; }
+#bodyFooter { padding-top: 50px; }
+@media screen and (max-width: 47.49375em)
+{
+    #bodyFooter { padding-top: 0; }    
+}
+
+/* cc position advance fix */
+.ccRemoveBottom.headingBase 
+{
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}﻿
+/*
+     FILE ARCHIVED ON ﻿06:28:59 Aug 12, 2013﻿ AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON ﻿02:23:32 Oct 18, 2024﻿.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+﻿playback timings (ms):
+﻿  ﻿captures_list﻿: ﻿0.518﻿
+﻿  ﻿exclusion.robots﻿: ﻿0.017﻿
+﻿  ﻿exclusion.robots.policy﻿: ﻿0.007﻿
+﻿  ﻿esindex﻿: ﻿0.009﻿
+﻿  ﻿cdx.remote﻿: ﻿23.577﻿
+﻿  ﻿LoadShardBlock﻿: ﻿44.288﻿ (﻿3﻿)
+﻿  ﻿PetaboxLoader3.datanode﻿: ﻿75.801﻿ (﻿5﻿)
+﻿  ﻿load_resource﻿: ﻿227.407﻿ (﻿2﻿)
+﻿  ﻿PetaboxLoader3.resolve﻿: ﻿189.715﻿ (﻿2﻿)
+﻿*/
